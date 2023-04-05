@@ -184,7 +184,7 @@ function buyItems() {
           const fruitImgInput = document.getElementById('fruitImg');
           const fruitPriceInput = document.getElementById('fruitPrice');
           const fruitQuantityInput = document.getElementById('fruitQuantity');
-        
+        //declaring necessary variables for the forms functionality
           const newFruit = {
             name: fruitNameInput.value,
             imageUrl: fruitImgInput.value,
@@ -213,14 +213,14 @@ function buyItems() {
         }
         
 
-function adminDisplayFruits() {
+function adminDisplayFruits() {//displaying admin content
 
 
   fruitData.forEach(fruit => {
     const fruitItem = document.createElement('div');
     fruitItem.id = "matunda"
     fruitItem.classList.add('fruit');
-
+//Fruit cards
     const image = document.createElement('img');
     image.src = fruit.imageUrl;
     image.alt = fruit.name;
@@ -233,7 +233,7 @@ function adminDisplayFruits() {
     const description = document.createElement('p');
     description.textContent = fruit.description;
     fruitItem.appendChild(description);
-
+//admin delete functionality
     const delButton = document.createElement('button');
     delButton.textContent = "DELETE";
     delButton.id = "del"
