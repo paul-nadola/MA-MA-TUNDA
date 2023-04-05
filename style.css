@@ -80,6 +80,20 @@ main {
   gap: 2rem;
   
 }
+#adminSec{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+#admUpdates{
+  display: flex;
+  width: 100%;
+  text-align: center;
+  font-size: large;
+  font-weight: 500;
+}
 .fruit-list p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;
@@ -140,7 +154,7 @@ main {
   font-weight: bold;
   margin-bottom: 10px;
 }
-#btn {
+#btn ,#buy-button{
   display: inline-block;
   padding: 1rem 2.8rem;
   background: var(--main-color);
@@ -155,10 +169,18 @@ main {
 #btn:hover {
   box-shadow: none;
 }
-
-#buy-button {
-  font-size: 24px;
-  font-weight: bold;
-  background-color: #4caf50;
-  color: white;
+#del{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: red;
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .5s ease;
+}
+#del:hover{
+  box-shadow: none;
 }

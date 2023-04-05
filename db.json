@@ -1,515 +1,441 @@
 {
-    "fruits":[
+  "fruits": [
     {
-    "genus": "Malus",
-    "name": "Apple",
-    "id": 1,
-    "imageUrl":"images/apple.jpg",
-    "picUrl":"https://www.pexels.com/photo/red-apple-1630588/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "The apple is one of the pome (fleshy) fruits. Apples at harvest vary widely in size, shape, colour, and acidity, but most are fairly round and some shade of red or yellow. The thousands of varieties fall into three broad classes: cider, cooking, and dessert varieties.",
-    "nutritions": {
+      "genus": "Malus",
+      "name": "Apple",
+      "id": 1,
+      "imageUrl": "images/apple.jpg",
+      "picUrl": "https://www.pexels.com/photo/red-apple-1630588/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "The apple is one of the pome (fleshy) fruits. Apples at harvest vary widely in size, shape, colour, and acidity, but most are fairly round and some shade of red or yellow. The thousands of varieties fall into three broad classes: cider, cooking, and dessert varieties.",
+      "nutritions": {
         "carbohydrates": 11.4,
         "protein": 0.3,
         "fat": 0.4,
         "calories": 52,
         "sugar": 10.3
+      },
+      "price": 30,
+      "quantity": 99
     },
-    "price": 30,
-    "quantity": 100
-},
-{
-    "genus": "Prunus",
-    "name": "Apricot",
-    "id": 2,
-    "imageUrl": "images/apricot.jpg",
-    "picUrl":"https://www.pexels.com/photo/agriculture-apricot-color-confection-209416/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description":"Apricots are closely related to peaches, almonds, plums, and cherries (see also Prunus). They are eaten fresh or cooked and are preserved by canning or drying. The fruit is also widely made into jam and is often used to flavour liqueurs. Apricots are a good source of vitamin A and are high in natural sugar.",
-    "nutritions": {
+    {
+      "genus": "Prunus",
+      "name": "Apricot",
+      "id": 2,
+      "imageUrl": "images/apricot.jpg",
+      "picUrl": "https://www.pexels.com/photo/agriculture-apricot-color-confection-209416/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "Apricots are closely related to peaches, almonds, plums, and cherries (see also Prunus). They are eaten fresh or cooked and are preserved by canning or drying. The fruit is also widely made into jam and is often used to flavour liqueurs. Apricots are a good source of vitamin A and are high in natural sugar.",
+      "nutritions": {
         "carbohydrates": 3.9,
         "protein": 0.5,
         "fat": 0.1,
         "calories": 15,
         "sugar": 3.2
+      },
+      "price": 50,
+      "quantity": 62
     },
-    "price": 50,
-    "quantity": 100
-},
-{
-    "genus": "Persea",
-    "name": "Avocado",
-    "id": 3,
-    "imageUrl":"images/avocado.jpg",
-    "picUrl":"https://www.pexels.com/photo/sliced-avocado-2228553/",
-    "family": "Lauraceae",
-    "order": "Laurales",
-    "description":"An avocado is a bright green fruit with a large pit and dark leathery skin. They're also known as alligator pears or butter fruit. Avocados are a favorite of the produce section. They're the go-to ingredient for guacamole dips. And they're turning up in everything from salads and wraps to smoothies and even brownies.",
-    "nutritions": {
+    {
+      "genus": "Persea",
+      "name": "Avocado",
+      "id": 3,
+      "imageUrl": "images/avocado.jpg",
+      "picUrl": "https://www.pexels.com/photo/sliced-avocado-2228553/",
+      "family": "Lauraceae",
+      "order": "Laurales",
+      "description": "An avocado is a bright green fruit with a large pit and dark leathery skin. They're also known as alligator pears or butter fruit. Avocados are a favorite of the produce section. They're the go-to ingredient for guacamole dips. And they're turning up in everything from salads and wraps to smoothies and even brownies.",
+      "nutritions": {
         "carbohydrates": 8.53,
         "protein": 2,
         "fat": 14.66,
         "calories": 160,
         "sugar": 0.66
+      },
+      "price": 30,
+      "quantity": 84
     },
-    "price": 30,
-    "quantity": 100
-},
-{
-    "genus": "Musa",
-    "name": "Banana",
-    "id": 4,
-    "imageUrl": "images/banana.jpg",
-    "picUrl":"https://www.pexels.com/photo/photo-of-peeled-banana-on-yellow-plate-and-background-2872767/",
-    "family": "Musaceae",
-    "order": "Zingiberales",
-    "description":"A banana is an elongated, edible fruit  botanically a berry  produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called plantains, distinguishing them from dessert bananas.",
-    "nutritions": {
+    {
+      "genus": "Musa",
+      "name": "Banana",
+      "id": 4,
+      "imageUrl": "images/banana.jpg",
+      "picUrl": "https://www.pexels.com/photo/photo-of-peeled-banana-on-yellow-plate-and-background-2872767/",
+      "family": "Musaceae",
+      "order": "Zingiberales",
+      "description": "A banana is an elongated, edible fruit  botanically a berry  produced by several kinds of large herbaceous flowering plants in the genus Musa. In some countries, bananas used for cooking may be called plantains, distinguishing them from dessert bananas.",
+      "nutritions": {
         "carbohydrates": 22,
         "protein": 1,
         "fat": 0.2,
         "calories": 96,
         "sugar": 17.2
+      },
+      "price": 10,
+      "quantity": 100
     },
-    "price": 10,
-    "quantity": 100
-},
-{
-    "genus": "Rubus",
-    "name": "Blackberry",
-    "id": 5,
-    "imageUrl": "images/blackberry.jpg",
-    "picUrl":"https://www.pexels.com/photo/blackberries-on-table-892808/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "The blackberry is the fruit of the bramble, a shrub that grows generally wild in many areas of the world. It is a black glossy berry-like fruit formed by multiple small fruits, each one containing a seed. It is an aromatic and somewhat acid fruit.",
-    "nutritions": {
+    {
+      "genus": "Rubus",
+      "name": "Blackberry",
+      "id": 5,
+      "imageUrl": "images/blackberry.jpg",
+      "picUrl": "https://www.pexels.com/photo/blackberries-on-table-892808/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "The blackberry is the fruit of the bramble, a shrub that grows generally wild in many areas of the world. It is a black glossy berry-like fruit formed by multiple small fruits, each one containing a seed. It is an aromatic and somewhat acid fruit.",
+      "nutritions": {
         "carbohydrates": 9,
         "protein": 1.3,
         "fat": 0.4,
         "calories": 40,
         "sugar": 4.5
+      },
+      "price": 100,
+      "quantity": 100
     },
-    "price": 100,
-    "quantity": 100
-},
-{
-    "genus": "Fragaria",
-    "name": "Blueberry",
-    "id": 6,
-    "imageUrl": "images/blueberry.jpg",
-    "picUrl":"https://www.pexels.com/photo/closeup-photography-blueberry-fruits-1395958/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "Blueberries are small round berries about 0.2 to 0.6 inches across. Their color can range from blue to purple. They are often eaten fresh but can also be enjoyed frozen, added to a wide variety of baked goods, or juiced or pureed.",
-    "nutritions": {
+    {
+      "genus": "Fragaria",
+      "name": "Blueberry",
+      "id": 6,
+      "imageUrl": "images/blueberry.jpg",
+      "picUrl": "https://www.pexels.com/photo/closeup-photography-blueberry-fruits-1395958/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "Blueberries are small round berries about 0.2 to 0.6 inches across. Their color can range from blue to purple. They are often eaten fresh but can also be enjoyed frozen, added to a wide variety of baked goods, or juiced or pureed.",
+      "nutritions": {
         "carbohydrates": 5.5,
         "protein": 0,
         "fat": 0.4,
         "calories": 29,
         "sugar": 5.4
+      },
+      "price": 150,
+      "quantity": 100
     },
-    "price": 150,
-    "quantity": 100
-},
-{
-    "genus": "Prunus",
-    "name": "Cherry",
-    "id": 7,
-    "imageUrl": "images/cherry.jpg",
-    "picUrl":"https://www.pexels.com/photo/two-red-cherries-on-brown-surface-1394423/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "The fruit is a fleshy drupe (stone fruit) that is generally heart-shaped to nearly globular, measures about 2 cm (1 inch) in diameter, and varies in colour from yellow through red to nearly black. The acid content of the sweet cherry is low.",
-    "nutritions": {
+    {
+      "genus": "Prunus",
+      "name": "Cherry",
+      "id": 7,
+      "imageUrl": "images/cherry.jpg",
+      "picUrl": "https://www.pexels.com/photo/two-red-cherries-on-brown-surface-1394423/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "The fruit is a fleshy drupe (stone fruit) that is generally heart-shaped to nearly globular, measures about 2 cm (1 inch) in diameter, and varies in colour from yellow through red to nearly black. The acid content of the sweet cherry is low.",
+      "nutritions": {
         "carbohydrates": 12,
         "protein": 1,
         "fat": 0.3,
         "calories": 50,
         "sugar": 8
+      },
+      "price": 200,
+      "quantity": 100
     },
-    "price": 200,
-    "quantity": 100
-},
-
-{
-    "genus": "Sellowiana",
-    "name": "Feijoa",
-    "id": 8,
-    "imageUrl": "images/feijoas.jpg",
-    "picUrl":"https://www.pexels.com/photo/overhead-shot-of-feijoas-6316545/",
-    "family": "Myrtaceae",
-    "order": "Myrtoideae",
-    "description":"The fruit, known as feijoa, matures in autumn and is green, ellipsoid, and about the size of a chicken egg. It has a sweet, aromatic flavour, which tastes like pineapple, apple, and mint. The flesh is juicy and is divided into a clear, gelatinous seed pulp and a firmer, slightly granular, opaque flesh nearer the skin.",
-    "nutritions": {
+    {
+      "genus": "Sellowiana",
+      "name": "Feijoa",
+      "id": 8,
+      "imageUrl": "images/feijoas.jpg",
+      "picUrl": "https://www.pexels.com/photo/overhead-shot-of-feijoas-6316545/",
+      "family": "Myrtaceae",
+      "order": "Myrtoideae",
+      "description": "The fruit, known as feijoa, matures in autumn and is green, ellipsoid, and about the size of a chicken egg. It has a sweet, aromatic flavour, which tastes like pineapple, apple, and mint. The flesh is juicy and is divided into a clear, gelatinous seed pulp and a firmer, slightly granular, opaque flesh nearer the skin.",
+      "nutritions": {
         "carbohydrates": 8,
         "protein": 0.6,
         "fat": 0.4,
         "calories": 44,
         "sugar": 3
+      },
+      "price": 25,
+      "quantity": 94
     },
-    "price": 25,
-    "quantity": 100
-},
-
-{
-    "genus": "Vitis",
-    "name": "Grape",
-    "id": 9,
-    "imageUrl": "images/grape.jpg",
-    "picUrl":"https://www.pexels.com/photo/red-grapes-23042/",
-    "family": "Vitaceae",
-    "order": "Vitales",
-    "description": "Grapefruit is a natural cross between pomelo and orange and its origin dates back to the 18th century. It is known for large fruit size, thick peel, and typical citrus fruit taste with bitter tinges, which is due to the high content of naringin, limonoids, and furanocoumarins.",
-    "nutritions": {
+    {
+      "genus": "Vitis",
+      "name": "Grape",
+      "id": 9,
+      "imageUrl": "images/grape.jpg",
+      "picUrl": "https://www.pexels.com/photo/red-grapes-23042/",
+      "family": "Vitaceae",
+      "order": "Vitales",
+      "description": "Grapefruit is a natural cross between pomelo and orange and its origin dates back to the 18th century. It is known for large fruit size, thick peel, and typical citrus fruit taste with bitter tinges, which is due to the high content of naringin, limonoids, and furanocoumarins.",
+      "nutritions": {
         "carbohydrates": 18.1,
         "protein": 0.72,
         "fat": 0.16,
         "calories": 69,
         "sugar": 16
+      },
+      "price": 250,
+      "quantity": 97
     },
-    "price": 250,
-    "quantity": 100
-},
-{
-    "genus": "Malus",
-    "name": "GreenApple",
-    "id": 10,
-    "imageUrl": "images/greenapple.jpg",
-    "picUrl":"https://www.pexels.com/photo/close-up-photography-green-apple-3588166/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "Green apples are medium in size (approximately 2 ¼ inches across) and round-conical in shape, with some ribbing. The Green apple's white flesh is hard, crispy, and juicy. The flavor of Green apples is extremely acidic, sometimes to the point of not having other taste, but generally refreshing.",
-    "nutritions": {
+    {
+      "genus": "Malus",
+      "name": "GreenApple",
+      "id": 10,
+      "imageUrl": "images/greenapple.jpg",
+      "picUrl": "https://www.pexels.com/photo/close-up-photography-green-apple-3588166/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "Green apples are medium in size (approximately 2 ¼ inches across) and round-conical in shape, with some ribbing. The Green apple's white flesh is hard, crispy, and juicy. The flavor of Green apples is extremely acidic, sometimes to the point of not having other taste, but generally refreshing.",
+      "nutritions": {
         "carbohydrates": 3.1,
         "protein": 0.4,
         "fat": 0.1,
         "calories": 21,
         "sugar": 6.4
+      },
+      "price": 30,
+      "quantity": 100
     },
-    "price": 30,
-    "quantity": 100
-},
-{
-    "genus": "Psidium",
-    "name": "Guava",
-    "id": 11,
-    "imageUrl": "images/guava.jpg",
-    "picUrl":"https://www.pexels.com/photo/pile-of-fresh-guava-fruits-4400282/",
-    "family": "Myrtaceae",
-    "order": "Myrtales",
-    "description": "The fruits are round to pear-shaped and measure up to 7.6 cm in diameter; their pulp contains many small hard seeds (more abundant in wild forms than in cultivated varieties). The fruit has a yellow skin and white, yellow, or pink flesh.",
-    "nutritions": {
-        "carbohydrates": 14,
-        "protein": 2.6,
-        "fat": 1,
-        "calories": 68,
-        "sugar": 9
-    },
-    "price": 20,
-    "quantity": 100
-
-},
-{
-    "genus": "Apteryx",
-    "name": "Kiwi",
-    "id": 12,
-    "imageUrl": "images/kiwi.jpg",
-    "picUrl":"https://www.pexels.com/photo/sliced-kiwi-fruits-867349/",
-    "family": "Actinidiaceae",
-    "order": "Struthioniformes",
-    "description": "The ellipsoidal kiwi fruit is a true berry and has furry brownish green skin. The firm translucent green flesh has numerous edible purple-black seeds embedded around a white centre. The deciduous leaves are borne alternately on long petioles (leaf stems), and young leaves are covered with reddish hairs",
-    "nutritions": {
-        "carbohydrates": 15,
-        "protein": 1.1,
-        "fat": 0.5,
-        "calories": 61,
-        "sugar": 9
-    },
-    "price": 50,
-    "quantity": 100
-},
-{
-    "genus": "Citrus",
-    "name": "Lemon",
-    "id": 13,
-    "imageUrl": "images/lemon.jpg",
-    "picUrl":"https://www.pexels.com/photo/close-up-photography-of-lemons-1414122/",
-    "family": "Rutaceae",
-    "order": "Sapindales",
-    "description": "Lemons are seedless to seedy. The nipple is prominent and large in some varieties, while others have very small, inconspicuous nipples. Rind color is green to bright yellow at maturity. Fruits are with or without a collar at the neck. Fruits are slightly ribbed without ribs.",
-    "nutritions": {
+    {
+      "genus": "Citrus",
+      "name": "Lemon",
+      "id": 13,
+      "imageUrl": "images/lemon.jpg",
+      "picUrl": "https://www.pexels.com/photo/close-up-photography-of-lemons-1414122/",
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "description": "Lemons are seedless to seedy. The nipple is prominent and large in some varieties, while others have very small, inconspicuous nipples. Rind color is green to bright yellow at maturity. Fruits are with or without a collar at the neck. Fruits are slightly ribbed without ribs.",
+      "nutritions": {
         "carbohydrates": 9,
         "protein": 1.1,
         "fat": 0.3,
         "calories": 29,
         "sugar": 2.5
+      },
+      "price": 10,
+      "quantity": 100
     },
-    "price": 10,
-    "quantity": 100
-
-},
-{
-    "genus": "Mangifera",
-    "name": "Mango",
-    "id": 14,
-    "imageUrl": "images/mango.jpg",
-    "picUrl":"https://www.pexels.com/photo/photo-of-ripe-mangoes-918643/",
-    "family": "Anacardiaceae",
-    "order": "Sapindales",
-    "description": "Botanically, mango is a drupe, consisting of an outer skin, a fleshy edible portion, and a central stone enclosing a single seed also called stone fruit, like a plum, cherry, or peach. Where do mangos come from? Mangos were first grown in India over 5,000 years ago.",
-    "nutritions": {
+    {
+      "genus": "Mangifera",
+      "name": "Mango",
+      "id": 14,
+      "imageUrl": "images/mango.jpg",
+      "picUrl": "https://www.pexels.com/photo/photo-of-ripe-mangoes-918643/",
+      "family": "Anacardiaceae",
+      "order": "Sapindales",
+      "description": "Botanically, mango is a drupe, consisting of an outer skin, a fleshy edible portion, and a central stone enclosing a single seed also called stone fruit, like a plum, cherry, or peach. Where do mangos come from? Mangos were first grown in India over 5,000 years ago.",
+      "nutritions": {
         "carbohydrates": 15,
         "protein": 0.82,
         "fat": 0.38,
         "calories": 60,
         "sugar": 13.7
+      },
+      "price": 10,
+      "quantity": 100
     },
-    "price": 10,
-    "quantity": 100
-},
-{
-    "genus": "Cucumis",
-    "name": "Melon",
-    "id": 15,
-    "imageUrl": "images/melon.jpg",
-    "picUrl":"https://www.pexels.com/photo/sliced-melon-1327734/",
-    "family": "Cucurbitaceae",
-    "order": "Cucurbitaceae",
-    "description": "Melons are rounded or elongate, of yellow or green rind, sometimes combined depending on the variety. It has an aromatic, juicy and sweet flesh, being an ideal fruit to fight thirst. The melon is a globose, rounded or elongate fruit, 20 to 30cm long, weighing up to 2kg.",
-    "nutritions": {
+    {
+      "genus": "Cucumis",
+      "name": "Melon",
+      "id": 15,
+      "imageUrl": "images/melon.jpg",
+      "picUrl": "https://www.pexels.com/photo/sliced-melon-1327734/",
+      "family": "Cucurbitaceae",
+      "order": "Cucurbitaceae",
+      "description": "Melons are rounded or elongate, of yellow or green rind, sometimes combined depending on the variety. It has an aromatic, juicy and sweet flesh, being an ideal fruit to fight thirst. The melon is a globose, rounded or elongate fruit, 20 to 30cm long, weighing up to 2kg.",
+      "nutritions": {
         "carbohydrates": 8,
         "protein": 0,
         "fat": 0,
         "calories": 34,
         "sugar": 8
+      },
+      "price": 60,
+      "quantity": 100
     },
-    "price": 60,
-    "quantity": 100
-},
-{
-    "genus": "Citrus",
-    "name": "Orange",
-    "id": 16,
-    "imageUrl": "images/orange.jpg",
-    "picUrl":"https://www.pexels.com/photo/orange-fruit-161559/",
-    "family": "Rutaceae",
-    "order": "Sapindales",
-    "description": "The fruit is a modified berry known as a hesperidium, and the flesh is divided into segments called carpels. The usual shape of the sweet-orange fruit is round and the colour of its pulp orange, but there are variations. The mandarin, for example, is distinctly flattened, and the blood orange has red pulp.",
-    "nutritions": {
+    {
+      "genus": "Citrus",
+      "name": "Orange",
+      "id": 16,
+      "imageUrl": "images/orange.jpg",
+      "picUrl": "https://www.pexels.com/photo/orange-fruit-161559/",
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "description": "The fruit is a modified berry known as a hesperidium, and the flesh is divided into segments called carpels. The usual shape of the sweet-orange fruit is round and the colour of its pulp orange, but there are variations. The mandarin, for example, is distinctly flattened, and the blood orange has red pulp.",
+      "nutritions": {
         "carbohydrates": 8.3,
         "protein": 1,
         "fat": 0.2,
         "calories": 43,
         "sugar": 8.2
+      },
+      "price": 10,
+      "quantity": 100
     },
-    "price": 10,
-    "quantity": 100
-}, {
-    "genus": "Carica",
-    "name": "Papaya",
-    "id": 17,
-    "imageUrl": "images/papaya.jpg",
-    "picUrl":"https://www.pexels.com/photo/half-of-papaya-on-light-background-5945739/",
-    "family": "Caricaceae",
-    "order": "Caricacea",
-    "description": "Papaya is a tropical fruit, having oval or pear shape, measuring between 10 and 20cm and usually weighing between 500 and 1,000g, although it may even weigh up to 5kg. It is a berry of thin skin, of a green yellowish and orange colour. The pulp is of a red orange or yellow colour, sweet and very juicy.",
-    "nutritions": {
+    {
+      "genus": "Carica",
+      "name": "Papaya",
+      "id": 17,
+      "imageUrl": "images/papaya.jpg",
+      "picUrl": "https://www.pexels.com/photo/half-of-papaya-on-light-background-5945739/",
+      "family": "Caricaceae",
+      "order": "Caricacea",
+      "description": "Papaya is a tropical fruit, having oval or pear shape, measuring between 10 and 20cm and usually weighing between 500 and 1,000g, although it may even weigh up to 5kg. It is a berry of thin skin, of a green yellowish and orange colour. The pulp is of a red orange or yellow colour, sweet and very juicy.",
+      "nutritions": {
         "carbohydrates": 11,
         "protein": 0,
         "fat": 0.4,
         "calories": 43,
         "sugar": 1
+      },
+      "price": 50,
+      "quantity": 100
     },
-    "price": 50,
-    "quantity": 100
-}, {
-    "genus": "Passiflora",
-    "name": "Passionfruit",
-    "id": 18,
-    "imageUrl": "images/passion.jpg",
-    "picUrl":"https://www.pexels.com/photo/delicious-ripe-passion-fruits-in-wicker-basket-on-white-surface-5946097/",
-    "family": "Passifloraceae",
-    "order": "Malpighiales",
-    "description": "The round to ovoid fruits are usually yellow or purple and contain many seeds surrounded by a gelatinous and tasty pulp. This highly aromatic pulp is extremely popular for juices, icecreams, desserts, and drinks and in numerous other recipes.",
-    "nutritions": {
+    {
+      "genus": "Passiflora",
+      "name": "Passionfruit",
+      "id": 18,
+      "imageUrl": "images/passion.jpg",
+      "picUrl": "https://www.pexels.com/photo/delicious-ripe-passion-fruits-in-wicker-basket-on-white-surface-5946097/",
+      "family": "Passifloraceae",
+      "order": "Malpighiales",
+      "description": "The round to ovoid fruits are usually yellow or purple and contain many seeds surrounded by a gelatinous and tasty pulp. This highly aromatic pulp is extremely popular for juices, icecreams, desserts, and drinks and in numerous other recipes.",
+      "nutritions": {
         "carbohydrates": 22.4,
         "protein": 2.2,
         "fat": 0.7,
         "calories": 97,
         "sugar": 11.2
+      },
+      "price": 5,
+      "quantity": 100
     },
-    "price": 5,
-    "quantity": 100
-}, {
-    "genus": "Prunus",
-    "name": "Peach",
-    "id": 19,
-    "imageUrl": "images/peach.jpg",
-    "picUrl":"https://www.pexels.com/photo/healthy-fruits-colorful-sweet-1268122/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "The peach is a type of fruit which is botanically called drupe. Great size, rounded fruit, with a velvet thin and easy to peel skin. Its flesh is between a yellowish and whitish colour, sweet, juicy, giving off a pleasant aroma. Depending on the variety, the stones are broken.",
-    "nutritions": {
+    {
+      "genus": "Prunus",
+      "name": "Peach",
+      "id": 19,
+      "imageUrl": "images/peach.jpg",
+      "picUrl": "https://www.pexels.com/photo/healthy-fruits-colorful-sweet-1268122/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "The peach is a type of fruit which is botanically called drupe. Great size, rounded fruit, with a velvet thin and easy to peel skin. Its flesh is between a yellowish and whitish colour, sweet, juicy, giving off a pleasant aroma. Depending on the variety, the stones are broken.",
+      "nutritions": {
         "carbohydrates": 9.5,
         "protein": 0.9,
         "fat": 0.25,
         "calories": 39,
         "sugar": 8.4
+      },
+      "price": 10,
+      "quantity": 100
     },
-    "price": 10,
-    "quantity": 100
-}, {
-    "genus": "Pyrus",
-    "name": "Pear",
-    "id": 20,
-    "imageUrl": "images/pear.jpg",
-    "picUrl":"https://www.pexels.com/photo/two-green-pear-fruits-568471/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "Pear fruits are generally sweeter and of softer texture than apples and are distinguished by the presence of hard cells in the flesh, the so-called grit, or stone cells. In general, pear fruits are elongate, being narrow at the stem end and broader at the opposite end.",
-    "nutritions": {
+    {
+      "genus": "Pyrus",
+      "name": "Pear",
+      "id": 20,
+      "imageUrl": "images/pear.jpg",
+      "picUrl": "https://www.pexels.com/photo/two-green-pear-fruits-568471/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "Pear fruits are generally sweeter and of softer texture than apples and are distinguished by the presence of hard cells in the flesh, the so-called grit, or stone cells. In general, pear fruits are elongate, being narrow at the stem end and broader at the opposite end.",
+      "nutritions": {
         "carbohydrates": 15,
         "protein": 0.4,
         "fat": 0.1,
         "calories": 57,
         "sugar": 10
+      },
+      "price": 20,
+      "quantity": 100
     },
-    "price": 20,
-    "quantity": 100
-}, 
-{
-    "genus": "Ananas",
-    "name": "Pineapple",
-    "id": 21,
-    "imageUrl": "images/pineapple.jpg",
-    "picUrl":"https://www.pexels.com/photo/pineapple-947879/",
-    "family": "Bromeliaceae",
-    "order": "Poales",
-    "description": "Ananas comosus (L.) Merr (Bromeliaceae), known as pineapple, is a herbaceous, biennial, tropical plant that grows up to 1.0 to 1.5m high and produces a fleshy, edible fruit whose flesh ranges from nearly white to yellow.",
-    "nutritions": {
+    {
+      "genus": "Ananas",
+      "name": "Pineapple",
+      "id": 21,
+      "imageUrl": "images/pineapple.jpg",
+      "picUrl": "https://www.pexels.com/photo/pineapple-947879/",
+      "family": "Bromeliaceae",
+      "order": "Poales",
+      "description": "Ananas comosus (L.) Merr (Bromeliaceae), known as pineapple, is a herbaceous, biennial, tropical plant that grows up to 1.0 to 1.5m high and produces a fleshy, edible fruit whose flesh ranges from nearly white to yellow.",
+      "nutritions": {
         "carbohydrates": 13.12,
         "protein": 0.54,
         "fat": 0.12,
         "calories": 50,
         "sugar": 9.85
+      },
+      "price": 100,
+      "quantity": 100
     },
-    "price": 100,
-    "quantity": 100
-}, 
-{
-    "genus": "Prunus",
-    "name": "Plum",
-    "id": 22,
-    "imageUrl": "images/plums.jpg",
-    "picUrl":"https://www.pexels.com/photo/high-angle-view-of-fruit-bowl-on-table-248440/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "Plums are small, dark reddish purple, and sweet. Plums have an edible, smooth skin, juicy flesh, and a hard pit in the middle. When plums are dried, they're called prunes. The typical color of a ripe plum — a rich, purple-red shade — is also called plum.",
-    "nutritions": {
+    {
+      "genus": "Prunus",
+      "name": "Plum",
+      "id": 22,
+      "imageUrl": "images/plums.jpg",
+      "picUrl": "https://www.pexels.com/photo/high-angle-view-of-fruit-bowl-on-table-248440/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "Plums are small, dark reddish purple, and sweet. Plums have an edible, smooth skin, juicy flesh, and a hard pit in the middle. When plums are dried, they're called prunes. The typical color of a ripe plum — a rich, purple-red shade — is also called plum.",
+      "nutritions": {
         "carbohydrates": 11.4,
         "protein": 0.7,
         "fat": 0.28,
         "calories": 46,
         "sugar": 9.92
+      },
+      "price": 150,
+      "quantity": 100
     },
-    "price": 150,
-    "quantity": 100
-},
-{
-    "genus": "Fragaria",
-    "name": "Strawberry",
-    "id": 23,
-    "imageUrl": "images/strawberry.jpg",
-    "picUrl":"https://www.pexels.com/photo/red-strawberries-on-in-close-up-shot-6944172/",
-    "family": "Rosaceae",
-    "order": "Rosales",
-    "description": "Strawberries are soft, sweet, bright red berries. They're also delicious. Strawberries have tiny edible seeds, which grow all over their surface. When ripe, strawberries smell wonderful and taste even better.",
-    "nutritions": {
+    {
+      "genus": "Fragaria",
+      "name": "Strawberry",
+      "id": 23,
+      "imageUrl": "images/strawberry.jpg",
+      "picUrl": "https://www.pexels.com/photo/red-strawberries-on-in-close-up-shot-6944172/",
+      "family": "Rosaceae",
+      "order": "Rosales",
+      "description": "Strawberries are soft, sweet, bright red berries. They're also delicious. Strawberries have tiny edible seeds, which grow all over their surface. When ripe, strawberries smell wonderful and taste even better.",
+      "nutritions": {
         "carbohydrates": 5.5,
         "protein": 0.8,
         "fat": 0.4,
         "calories": 29,
         "sugar": 5.4
+      },
+      "price": 150,
+      "quantity": 100
     },
-    "price": 150,
-    "quantity": 100
-},
-{
-    "genus": "Citrus",
-    "name": "Tangerine",
-    "id": 24,
-    "imageUrl": "images/tangerine.jpg",
-    "picUrl":"https://www.pexels.com/photo/close-up-photo-of-orange-fruits-3903202/",
-    "family": "Rutaceae",
-    "order": "Sapindales",
-    "description": "Tangerines are smaller and less rounded than the oranges. The taste is considered less sour, as well as sweeter and stronger, than that of an orange. A ripe tangerine is firm to slightly soft, and pebbly-skinned with no deep grooves, as well as orange in color. The peel is thin, with little bitter white mesocarp.",
-    "nutritions": {
+    {
+      "genus": "Citrus",
+      "name": "Tangerine",
+      "id": 24,
+      "imageUrl": "images/tangerine.jpg",
+      "picUrl": "https://www.pexels.com/photo/close-up-photo-of-orange-fruits-3903202/",
+      "family": "Rutaceae",
+      "order": "Sapindales",
+      "description": "Tangerines are smaller and less rounded than the oranges. The taste is considered less sour, as well as sweeter and stronger, than that of an orange. A ripe tangerine is firm to slightly soft, and pebbly-skinned with no deep grooves, as well as orange in color. The peel is thin, with little bitter white mesocarp.",
+      "nutritions": {
         "carbohydrates": 8.3,
         "protein": 0,
         "fat": 0.4,
         "calories": 45,
         "sugar": 9.1
+      },
+      "price": 10,
+      "quantity": 100
     },
-    "price": 10,
-    "quantity": 100
-}, {
-    "genus": "Solanum",
-    "name": "Tomato",
-    "id": 25,
-    "imageUrl": "images/tomato.jpg",
-    "picUrl":"https://www.pexels.com/photo/abundance-agriculture-fresh-healthy-533280/",
-    "family": "Solanaceae",
-    "order": "Solanales",
-    "description": "They are usually red, scarlet, or yellow, though green and purple varieties do exist, and they vary in shape from almost spherical to oval and elongate to pear-shaped. Each fruit contains at least two cells of small seeds surrounded by jellylike pulp.",
-    "nutritions": {
+    {
+      "genus": "Solanum",
+      "name": "Tomato",
+      "id": 25,
+      "imageUrl": "images/tomato.jpg",
+      "picUrl": "https://www.pexels.com/photo/abundance-agriculture-fresh-healthy-533280/",
+      "family": "Solanaceae",
+      "order": "Solanales",
+      "description": "They are usually red, scarlet, or yellow, though green and purple varieties do exist, and they vary in shape from almost spherical to oval and elongate to pear-shaped. Each fruit contains at least two cells of small seeds surrounded by jellylike pulp.",
+      "nutritions": {
         "carbohydrates": 3.9,
         "protein": 0.9,
         "fat": 0.2,
         "calories": 74,
         "sugar": 2.6
-    },
-    "price": 70,
-    "quantity": 100
-},
-{
-    "genus": "Selenicereus",
-    "name": "Dragonfruit",
-    "id": 26,
-    "imageUrl": "images/dragonfruit.jpg",
-    "picUrl":"https://www.pexels.com/photo/red-dragon-fruits-5232860/",
-    "family": "Cactaceae",
-    "order": "Caryophyllales",
-    "description": "We call this plant a fruit, but dragon fruit is actually considered a cactus. They have scaly skin that can be pink or yellow, while the inside flesh may be red or white with tiny, black seeds. It has a crunchy texture and sweet flavor like a kiwi or pear.",
-    "nutritions": {
-        "carbohydrates": 9,
-        "protein": 9,
-        "fat": 1.5,
-        "calories": 60,
-        "sugar": 8
-    },
-    "price": 10,
-    "quantity": 100
-},
-{
-    "genus": "Vaccinium",
-    "name": "Cranberry",
-    "id": 27,
-    "imageUrl":"images/cranberry.jpg",
-    "picUrl":"https://www.pexels.com/photo/red-apple-1630588/",
-    "family": "Ericaceae",
-    "order": "Ericales",
-    "description": "Cranberries are small, hard, round, red fruits with a flavor that many describe as both bitter and sour. They grow on vines in freshwater bogs, mostly in the northern United States and southern Canada. They're related to blueberries and wintergreen.",
-    "nutritions": {
-        "carbohydrates": 12.2,
-        "protein": 0.4,
-        "fat": 0.1,
-        "calories": 46,
-        "sugar": 4
-    },
-    "price": 150,
-    "quantity": 100
+      },
+      "price": 10,
+      "quantity": 100
+    }
+  ]
 }
-]}
