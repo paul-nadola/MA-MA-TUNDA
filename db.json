@@ -436,6 +436,25 @@
       },
       "price": 10,
       "quantity": 100
+    },
+    {
+      "genus": "Punica",
+      "name": "Pomegranate",
+      "id": 79,
+      "imageUrl": "images/pomegranate.jpg",
+      "picUrl" : "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F96%2F201196-050-C0441508%2FBatch-pomegranate-fruits.jpg&tbnid=6SDUBQgKO34PUM&vet=12ahUKEwjz3cmM3JL-AhV0picCHbVpCHYQMygAegUIARDSAQ..i&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fplant%2Fpomegranate&docid=IhHdLg2j4yoQtM&w=1600&h=1067&q=pomegranate%20fruit%20description&ved=2ahUKEwjz3cmM3JL-AhV0picCHbVpCHYQMygAegUIARDSAQ",
+      "family": "Lythraceae",
+      "order": "Myrtales",
+      "description": "It has rounded fruit with a dry outer covering (husk) made up of two layers: (1) a hard-outer layer called an epicarp, (2) a soft inner layer called a mesocarp. The inner mesocarp has distinct chambers that contain fleshy seeds.",
+      "nutritions": {
+          "carbohydrates": 18.7,
+          "protein": 1.7,
+          "fat": 1.2,
+          "calories": 83,
+          "sugar": 13.7
+      },
+      "price": 30,
+      "quantity": 100
     }
   ]
 }
