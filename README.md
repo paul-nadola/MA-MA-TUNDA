@@ -7,7 +7,7 @@ Add desired fruits to the cart by clicking the "Add to cart" button and entering
 View items on your cart on the top right position on the screen.
 Remove items from the cart by clicking the "Remove" button
 Proceed to checkout by clicking the "Buy Now" button and filling out the form
-Admins can view, add, update and delete fruits by clicking the "Admin" button on the top left corner of the page
+Admins can view, add and delete fruits on the Admins section
 Technologies Used
 JavaScript
 HTML
@@ -19,10 +19,10 @@ Remove items from cart
 Proceed to checkout
 Admin panel for viewing, adding, updating and deleting fruits
 Future Improvements
-Allow customers to search for fruits
+
 Implement a login system for admins
 Improve the design and layout of the website
 Credits
-The fruit data used in this project was obtained from Fruit API.
+The fruit data used in this project was obtained from Fruit API and pexels.com
 
 Author : Paul Nadola Oyinga
