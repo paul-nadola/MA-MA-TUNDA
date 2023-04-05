@@ -1,9 +1,9 @@
-// Get fruit data from JSON file
-// const fruitDataUrl = 'fruits.json';
+//creating a DOMContentLoaded event
 window.addEventListener('DOMContentLoaded', (event) => {
-(event).preventDefault();
-let fruitData;
-
+  (event).preventDefault();
+  let fruitData;
+  
+  // Get fruit data from JSON file
 fetch(`http://localhost:3000/fruits`)
   .then(response => response.json())
   .then(data => {
@@ -16,7 +16,7 @@ fetch(`http://localhost:3000/fruits`)
 function displayFruits() {
   const fruitList = document.querySelector('.fruit-list');
   fruitList.innerHTML = '';
-
+//Creating fruit card
   fruitData.forEach(fruit => {
     const fruitItem = document.createElement('div');
     fruitItem.classList.add('fruit');
@@ -60,7 +60,7 @@ function displayFruits() {
     buyButton.addEventListener('click', () => addToCart(fruit, quantityInput.value));
     fruitItem.appendChild(buyButton);
 
-    fruitList.appendChild(fruitItem);
+    fruitList.appendChild(fruitItem);//appending card
   });
 }
 
@@ -99,7 +99,7 @@ function displayCart() {
   });
 
   cartList.innerHTML = cartHtml;
-
+//cart total
   const cartTotal = cart.reduce((acc, item) => acc + item.fruit.price * item.quantity, 0);
   total.textContent = `Total Ksh : ${cartTotal}`;
 
