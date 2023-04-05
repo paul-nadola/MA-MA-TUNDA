@@ -152,32 +152,9 @@ function buyItems() {
     adminDisplayFruits();
   })
   .catch(error => console.error(error));
-  
-  //   const addFruitForm = document.querySelector('#add-fruit-form');
-  //   const nameInput = document.querySelector('#fruit-name');
-  //   const descriptionInput = document.querySelector('#fruit-description');
-  //   const imageUrlInput = document.querySelector('#fruit-image-url');
-  //   const priceInput = document.querySelector('#fruit-price');
-  //   const quantityInput = document.querySelector('#fruit-quantity');
-  //   const newFruit = {
-    //     name: nameInput.value,
-    //     description: descriptionInput.value,
-    //     imageUrl: imageUrlInput.value,
-    //     price: parseFloat(priceInput.value),
-    //     quantity: parseInt(quantityInput.value),
-    //   };
-    // addFruitForm.addEventListener('submit', (event) => {
-      //   event.preventDefault();
-      //   addFruit(newFruit);
-      //   addFruitForm.reset();
-      // });
-      // function addFruit(fruit) {
-        //   fruitData.push(fruit);
-        //   displayFruits();
-        // }
-        
         
         const fruitList = document.querySelector('#adminSec');
+        // Creating HTML form elements for admin inputs to add items
         const admUpdates = document.createElement('form');
         admUpdates.id = "admUpdates"
         admUpdates.innerHTML = `
@@ -197,7 +174,7 @@ function buyItems() {
         fruitList.appendChild(admUpdates);
         
         admUpdates.addEventListener("submit", (event) => {
-          event.preventDefault();
+          event.preventDefault();//submit event listener
           addFruit();
         });
         
