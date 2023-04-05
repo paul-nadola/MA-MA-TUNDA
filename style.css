@@ -22,6 +22,7 @@ html{
 body{
   background: var(--bg-color);
   color: var(--text-color);
+  
 }
 /* stylling the header */
 header {
@@ -71,9 +72,11 @@ main {
 
 #cart {
   width: 35%;
+
 }
 
 .fruit-list {
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,19 +127,23 @@ main {
 }
 
 .cart-list {
+
   display: flex;
   flex-direction: column;
   margin-bottom: 20px;
 }
 
 .cart-item {
+
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
+
 }
 
 .cart-item button {
+ 
   font-weight: bold;
   background-color: #f44336;
   color: white;
@@ -144,6 +151,7 @@ main {
   padding: 5px 10px;
   border-radius: 5px;
   cursor: pointer;
+
 }
 
 .cart-item button:hover {
@@ -151,11 +159,25 @@ main {
 }
 
 .total {
+
   font-size: 24px;
   font-weight: bold;
   margin-bottom: 10px;
+  padding: 10px;
 }
-#btn ,#buy-button{
+#buy-button{
+  display: inline-block;
+  padding: 1rem 2.8rem;
+  background: rgb(0, 255, 0);
+  border-radius: 4rem;
+  box-shadow: 0 0 1rem var(--main-color);
+  font-size: 1.6rem;
+  color: var(--second-bg-color);
+  letter-spacing: .1rem;
+  font-weight: 600;
+  transition: .5s ease;
+}
+#btn {
   display: inline-block;
   padding: 1rem 2.8rem;
   background: rgb(0, 255, 0);

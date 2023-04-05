@@ -17,7 +17,7 @@
         "sugar": 10.3
       },
       "price": 30,
-      "quantity": 79
+      "quantity": 76
     },
     {
       "genus": "Prunus",
@@ -36,7 +36,7 @@
         "sugar": 3.2
       },
       "price": 50,
-      "quantity": 57
+      "quantity": 55
     },
     {
       "genus": "Persea",
@@ -55,7 +55,7 @@
         "sugar": 0.66
       },
       "price": 30,
-      "quantity": 78
+      "quantity": 73
     },
     {
       "genus": "Musa",
@@ -131,7 +131,7 @@
         "sugar": 8
       },
       "price": 200,
-      "quantity": 100
+      "quantity": 99
     },
     {
       "genus": "Sellowiana",
@@ -150,7 +150,7 @@
         "sugar": 3
       },
       "price": 25,
-      "quantity": 94
+      "quantity": 93
     },
     {
       "genus": "Vitis",
@@ -169,7 +169,7 @@
         "sugar": 16
       },
       "price": 250,
-      "quantity": 97
+      "quantity": 94
     },
     {
       "genus": "Malus",
@@ -226,7 +226,7 @@
         "sugar": 13.7
       },
       "price": 10,
-      "quantity": 100
+      "quantity": 99
     },
     {
       "genus": "Cucumis",

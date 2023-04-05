@@ -59,7 +59,7 @@ function displayFruits() {
     buyButton.id = 'btn'
     buyButton.addEventListener('click', () => addToCart(fruit, quantityInput.value));
     fruitItem.appendChild(buyButton);
-
+    
     fruitList.appendChild(fruitItem);//appending card
   });
 }
@@ -78,7 +78,6 @@ function addToCart(fruit, quantity) {
       quantity: parseInt(quantity)
     });
   }
-
   displayCart();
 }
 
@@ -87,22 +86,22 @@ function displayCart() {
   const cartList = document.querySelector('.cart-list');
   const total = document.querySelector('.total');
   let cartHtml = '';
-
+  
   cart.forEach(item => {
     cartHtml += `
       <div class="cart-item">
-        <span>${item.fruit.name}</span>
-        <span>${item.quantity}</span>
+      <span>${item.fruit.name}</span>
+      <span>${item.quantity}</span>
         <button class="remove-button">Remove</button>
-      </div>
-    `;
-  });
+        </div>
+        `;
+      });
 
   cartList.innerHTML = cartHtml;
-//cart total
+  //cart total
   const cartTotal = cart.reduce((acc, item) => acc + item.fruit.price * item.quantity, 0);
   total.textContent = `Total Ksh : ${cartTotal}`;
-
+  
   const removeButtons = document.querySelectorAll('.remove-button');
   removeButtons.forEach(button => button.addEventListener('click', () => removeCartItem(button)));
 }
@@ -140,6 +139,7 @@ function buyItems() {
     });
 
     
+    alert('Thank you for your purchase, rudi tena na tena!!')
     cart.length = 0;
     displayCart();
     displayFruits();
