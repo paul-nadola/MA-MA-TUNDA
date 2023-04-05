@@ -237,7 +237,7 @@ function buyItems() {
         
 
 function adminDisplayFruits() {
-  // fruitList.innerHTML = '';
+
 
   fruitData.forEach(fruit => {
     const fruitItem = document.createElement('div');
