@@ -36,7 +36,7 @@ JavaScript
 JSON
 Fetch API
 How to Use
-To use this application:
+
 
 
 Credits
