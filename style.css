@@ -43,6 +43,7 @@ h3{
 
 header h1 {
   margin: 0;
+  color: black;
 }
 
 
@@ -72,7 +73,6 @@ main {
 
 #cart {
   width: 35%;
-
 }
 
 .fruit-list {

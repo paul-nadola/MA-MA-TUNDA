@@ -17,7 +17,7 @@
         "sugar": 10.3
       },
       "price": 30,
-      "quantity": 76
+      "quantity": 75
     },
     {
       "genus": "Prunus",
@@ -36,7 +36,7 @@
         "sugar": 3.2
       },
       "price": 50,
-      "quantity": 55
+      "quantity": 44
     },
     {
       "genus": "Persea",
@@ -55,7 +55,7 @@
         "sugar": 0.66
       },
       "price": 30,
-      "quantity": 73
+      "quantity": 62
     },
     {
       "genus": "Musa",
@@ -93,7 +93,7 @@
         "sugar": 4.5
       },
       "price": 100,
-      "quantity": 100
+      "quantity": 99
     },
     {
       "genus": "Fragaria",
@@ -112,7 +112,7 @@
         "sugar": 5.4
       },
       "price": 150,
-      "quantity": 100
+      "quantity": 99
     },
     {
       "genus": "Prunus",
