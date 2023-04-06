@@ -419,11 +419,11 @@
       "quantity": 100
     },
     {
-      "name": "hhh",
-      "description": "fffff",
-      "imageUrl": "images/apricot.jpg",
-      "price": 55,
-      "quantity": 33,
+      "name": "tomato",
+      "description": "They are usually red, scarlet, or yellow, though green and purple varieties do exist, and they vary in shape from almost spherical to oval and elongate to pear-shaped. Each fruit contains at least two cells of small seeds surrounded by jellylike pulp.",
+      "imageUrl": "images/tomato.jpg",
+      "price": 10,
+      "quantity": 85,
       "id": 25
     }
   ]
