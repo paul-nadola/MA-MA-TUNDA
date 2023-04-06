@@ -91,7 +91,7 @@ main {
   flex-wrap: wrap;
   gap: 2rem;
 }
-#admUpdates{
+#admUpdates, #fruitUpdates{
   display: flex;
   width: 100%;
   text-align: center;

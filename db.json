@@ -2,7 +2,7 @@
   "fruits": [
     {
       "genus": "Malus",
-      "name": "Apple",
+      "name": "apple",
       "id": 1,
       "imageUrl": "images/apple.jpg",
       "picUrl": "https://www.pexels.com/photo/red-apple-1630588/",
@@ -17,11 +17,11 @@
         "sugar": 10.3
       },
       "price": 30,
-      "quantity": 75
+      "quantity": 64
     },
     {
       "genus": "Prunus",
-      "name": "Apricot",
+      "name": "apricot",
       "id": 2,
       "imageUrl": "images/apricot.jpg",
       "picUrl": "https://www.pexels.com/photo/agriculture-apricot-color-confection-209416/",
@@ -40,7 +40,7 @@
     },
     {
       "genus": "Persea",
-      "name": "Avocado",
+      "name": "avocado",
       "id": 3,
       "imageUrl": "images/avocado.jpg",
       "picUrl": "https://www.pexels.com/photo/sliced-avocado-2228553/",
@@ -55,11 +55,11 @@
         "sugar": 0.66
       },
       "price": 30,
-      "quantity": 62
+      "quantity": 60
     },
     {
       "genus": "Musa",
-      "name": "Banana",
+      "name": "banana",
       "id": 4,
       "imageUrl": "images/banana.jpg",
       "picUrl": "https://www.pexels.com/photo/photo-of-peeled-banana-on-yellow-plate-and-background-2872767/",
@@ -74,11 +74,11 @@
         "sugar": 17.2
       },
       "price": 10,
-      "quantity": 100
+      "quantity": 97
     },
     {
       "genus": "Rubus",
-      "name": "Blackberry",
+      "name": "blackberry",
       "id": 5,
       "imageUrl": "images/blackberry.jpg",
       "picUrl": "https://www.pexels.com/photo/blackberries-on-table-892808/",
@@ -97,7 +97,7 @@
     },
     {
       "genus": "Fragaria",
-      "name": "Blueberry",
+      "name": "blueberry",
       "id": 6,
       "imageUrl": "images/blueberry.jpg",
       "picUrl": "https://www.pexels.com/photo/closeup-photography-blueberry-fruits-1395958/",
@@ -112,11 +112,11 @@
         "sugar": 5.4
       },
       "price": 150,
-      "quantity": 99
+      "quantity": 91
     },
     {
       "genus": "Prunus",
-      "name": "Cherry",
+      "name": "cherry",
       "id": 7,
       "imageUrl": "images/cherry.jpg",
       "picUrl": "https://www.pexels.com/photo/two-red-cherries-on-brown-surface-1394423/",
@@ -131,11 +131,11 @@
         "sugar": 8
       },
       "price": 200,
-      "quantity": 99
+      "quantity": 88
     },
     {
       "genus": "Sellowiana",
-      "name": "Feijoa",
+      "name": "feijoa",
       "id": 8,
       "imageUrl": "images/feijoas.jpg",
       "picUrl": "https://www.pexels.com/photo/overhead-shot-of-feijoas-6316545/",
@@ -150,11 +150,11 @@
         "sugar": 3
       },
       "price": 25,
-      "quantity": 93
+      "quantity": 92
     },
     {
       "genus": "Vitis",
-      "name": "Grape",
+      "name": "grape",
       "id": 9,
       "imageUrl": "images/grape.jpg",
       "picUrl": "https://www.pexels.com/photo/red-grapes-23042/",
@@ -169,11 +169,11 @@
         "sugar": 16
       },
       "price": 250,
-      "quantity": 94
+      "quantity": 93
     },
     {
       "genus": "Malus",
-      "name": "GreenApple",
+      "name": "greenApple",
       "id": 10,
       "imageUrl": "images/greenapple.jpg",
       "picUrl": "https://www.pexels.com/photo/close-up-photography-green-apple-3588166/",
@@ -192,7 +192,7 @@
     },
     {
       "genus": "Citrus",
-      "name": "Lemon",
+      "name": "lemon",
       "id": 13,
       "imageUrl": "images/lemon.jpg",
       "picUrl": "https://www.pexels.com/photo/close-up-photography-of-lemons-1414122/",
@@ -211,7 +211,7 @@
     },
     {
       "genus": "Mangifera",
-      "name": "Mango",
+      "name": "mango",
       "id": 14,
       "imageUrl": "images/mango.jpg",
       "picUrl": "https://www.pexels.com/photo/photo-of-ripe-mangoes-918643/",
@@ -230,7 +230,7 @@
     },
     {
       "genus": "Cucumis",
-      "name": "Melon",
+      "name": "melon",
       "id": 15,
       "imageUrl": "images/melon.jpg",
       "picUrl": "https://www.pexels.com/photo/sliced-melon-1327734/",
@@ -249,7 +249,7 @@
     },
     {
       "genus": "Citrus",
-      "name": "Orange",
+      "name": "orange",
       "id": 16,
       "imageUrl": "images/orange.jpg",
       "picUrl": "https://www.pexels.com/photo/orange-fruit-161559/",
@@ -268,7 +268,7 @@
     },
     {
       "genus": "Carica",
-      "name": "Papaya",
+      "name": "papaya",
       "id": 17,
       "imageUrl": "images/papaya.jpg",
       "picUrl": "https://www.pexels.com/photo/half-of-papaya-on-light-background-5945739/",
@@ -287,7 +287,7 @@
     },
     {
       "genus": "Passiflora",
-      "name": "Passionfruit",
+      "name": "passionfruit",
       "id": 18,
       "imageUrl": "images/passion.jpg",
       "picUrl": "https://www.pexels.com/photo/delicious-ripe-passion-fruits-in-wicker-basket-on-white-surface-5946097/",
@@ -306,7 +306,7 @@
     },
     {
       "genus": "Prunus",
-      "name": "Peach",
+      "name": "peach",
       "id": 19,
       "imageUrl": "images/peach.jpg",
       "picUrl": "https://www.pexels.com/photo/healthy-fruits-colorful-sweet-1268122/",
@@ -325,7 +325,7 @@
     },
     {
       "genus": "Pyrus",
-      "name": "Pear",
+      "name": "pear",
       "id": 20,
       "imageUrl": "images/pear.jpg",
       "picUrl": "https://www.pexels.com/photo/two-green-pear-fruits-568471/",
@@ -344,7 +344,7 @@
     },
     {
       "genus": "Ananas",
-      "name": "Pineapple",
+      "name": "pineapple",
       "id": 21,
       "imageUrl": "images/pineapple.jpg",
       "picUrl": "https://www.pexels.com/photo/pineapple-947879/",
@@ -363,7 +363,7 @@
     },
     {
       "genus": "Prunus",
-      "name": "Plum",
+      "name": "plum",
       "id": 22,
       "imageUrl": "images/plums.jpg",
       "picUrl": "https://www.pexels.com/photo/high-angle-view-of-fruit-bowl-on-table-248440/",
@@ -382,7 +382,7 @@
     },
     {
       "genus": "Fragaria",
-      "name": "Strawberry",
+      "name": "strawberry",
       "id": 23,
       "imageUrl": "images/strawberry.jpg",
       "picUrl": "https://www.pexels.com/photo/red-strawberries-on-in-close-up-shot-6944172/",
@@ -401,7 +401,7 @@
     },
     {
       "genus": "Citrus",
-      "name": "Tangerine",
+      "name": "tangerine",
       "id": 24,
       "imageUrl": "images/tangerine.jpg",
       "picUrl": "https://www.pexels.com/photo/close-up-photo-of-orange-fruits-3903202/",
@@ -419,42 +419,12 @@
       "quantity": 100
     },
     {
-      "genus": "Solanum",
-      "name": "Tomato",
-      "id": 25,
-      "imageUrl": "images/tomato.jpg",
-      "picUrl": "https://www.pexels.com/photo/abundance-agriculture-fresh-healthy-533280/",
-      "family": "Solanaceae",
-      "order": "Solanales",
-      "description": "They are usually red, scarlet, or yellow, though green and purple varieties do exist, and they vary in shape from almost spherical to oval and elongate to pear-shaped. Each fruit contains at least two cells of small seeds surrounded by jellylike pulp.",
-      "nutritions": {
-        "carbohydrates": 3.9,
-        "protein": 0.9,
-        "fat": 0.2,
-        "calories": 74,
-        "sugar": 2.6
-      },
-      "price": 10,
-      "quantity": 100
-    },
-    {
-      "genus": "Punica",
-      "name": "Pomegranate",
-      "id": 79,
-      "imageUrl": "images/pomegranate.jpg",
-      "picUrl": "https://www.google.com/imgres?imgurl=https%3A%2F%2Fcdn.britannica.com%2F96%2F201196-050-C0441508%2FBatch-pomegranate-fruits.jpg&tbnid=6SDUBQgKO34PUM&vet=12ahUKEwjz3cmM3JL-AhV0picCHbVpCHYQMygAegUIARDSAQ..i&imgrefurl=https%3A%2F%2Fwww.britannica.com%2Fplant%2Fpomegranate&docid=IhHdLg2j4yoQtM&w=1600&h=1067&q=pomegranate%20fruit%20description&ved=2ahUKEwjz3cmM3JL-AhV0picCHbVpCHYQMygAegUIARDSAQ.",
-      "family": "Lythraceae",
-      "order": "Myrtales",
-      "description": "It has rounded fruit with a dry outer covering (husk) made up of two layers: (1) a hard-outer layer called an epicarp, (2) a soft inner layer called a mesocarp. The inner mesocarp has distinct chambers that contain fleshy seeds.",
-      "nutritions": {
-        "carbohydrates": 18.7,
-        "protein": 1.7,
-        "fat": 1.2,
-        "calories": 83,
-        "sugar": 13.7
-      },
-      "price": 30,
-      "quantity": 100
+      "name": "hhh",
+      "description": "fffff",
+      "imageUrl": "images/apricot.jpg",
+      "price": 55,
+      "quantity": 33,
+      "id": 25
     }
   ]
 }

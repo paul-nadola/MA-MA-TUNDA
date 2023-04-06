@@ -211,6 +211,86 @@ function buyItems() {
           })
           .catch(error => console.error(error));
         }
+        const fruitUpdates = document.createElement('form');
+        fruitUpdates.id = "fruitUpdates";
+        fruitUpdates.innerHTML = `
+            <label for="fruitTarget">Enter fruit Name To Edit:</label>
+            <input id="fruitTarget" type="text" name="fruitTarget" placeholder="Enter fruit to Edit" required />
+            <label for="fruitUp">Enter fruit Name:</label>
+            <input id="fruitUp" type="text" name="fruitUp" placeholder="Enter fruit Name" />
+            <label for="fruitDesUp">Enter fruit Description:</label>
+            <input id="fruitDesUp" type="text" name="fruitDesUp" placeholder="Enter fruit Description"  />
+            <label for="fruitImgUp">Enter fruit Image link:</label>
+            <input id="fruitImgUp" type="text" name="fruitImgUp" placeholder="Enter fruit image link"  />
+            <label for="fruitPriceUp">Enter fruit Price:</label>
+            <input id="fruitPriceUp" type="number" name="fruitPriceUp" placeholder="Enter fruit price"  />
+            <label for="fruitQuantityUp">Enter fruit quantity:</label>
+            <input id="fruitQuantityUp" type="number" name="fruitQuantityUp" placeholder="Enter fruit Quantity"  />
+            <button type="submit" id='btn'>REKEBISHA-TUNDA</button>
+        `;
+        
+        fruitList.appendChild(fruitUpdates);
+        
+        fruitUpdates.addEventListener("submit", (event) => {
+            event.preventDefault(); // Prevent the form from submitting
+            addUpdates();
+        });
+        
+        function addUpdates() {
+            const nameUp = document.getElementById('fruitUp');
+            const descriptionUp = document.getElementById('fruitDesUp');
+            const imgUp = document.getElementById('fruitImgUp');
+            const priceUp = document.getElementById('fruitPriceUp');
+            const quantityUp = document.getElementById('fruitQuantityUp');
+        
+            const fruitTarget = document.getElementById('fruitTarget');
+            const targetFruitName = fruitTarget.value.trim().toLowerCase(); // Get the target fruit name
+            let fruits = fruitData
+            console.log(fruits);
+
+            const fruitToUpdate = fruits.find(fruit => fruit.name.toLowerCase() === targetFruitName); // Find the fruit object to update
+            console.log(fruitToUpdate);
+
+            if (!fruitToUpdate) {
+              // Handle case when the target fruit is not found
+              alert(`Fruit with name "${targetFruitName}" not found!`);
+              return;
+            }
+            
+            const newObj = {
+              name: nameUp.value.trim(),
+              description: descriptionUp.value.trim(),
+              imageUrl: imgUp.value.trim(),
+              price: parseFloat(priceUp.value),
+              quantity: parseInt(quantityUp.value),
+            };
+        
+            fetch(`http://localhost:3000/fruits/${fruitToUpdate.id}`, {
+                method: 'PUT',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'Accept': 'application/json'
+                },
+                body: JSON.stringify(newObj)
+            })
+            .then(response => response.json())
+            .then(updatedFruit => {
+                // Update the DOM with the updated fruit
+                const index = fruits.findIndex(fruit => fruit.id === updatedFruit.id);
+                fruits[index] = updatedFruit;
+                renderFruitList(fruits);
+                alert(`Fruit "${updatedFruit.name}" updated successfully!`);
+        
+                // Clear the form fields
+                fruitTarget.value = '';
+                nameUp.value = '';
+                descriptionUp.value = '';
+                imgUp.value = '';
+                priceUp.value = '';
+                quantityUp.value = '';
+            })
+            .catch(error => console.error(error));
+        }
         
 
 function adminDisplayFruits() {//displaying admin content
